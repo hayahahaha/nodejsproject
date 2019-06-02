@@ -20,53 +20,53 @@
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="/">Shop Thập Tam</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Shop Thập Tam</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/product">Sản phẩm</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/product/nam">Thời trang nam</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/product/nu">Thời trang nữ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact">Liên hệ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/blogs">Blogs</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav mx-auto">
-                    <li>
-                        <a class="btn btn-sm btn-outline-info active" href="/signup">Sign up</a>&emsp;
-                    </li>
-                    <li>
-                        <a class="btn btn-sm btn-outline-info  " href="/auth/signIn">Sign in</a>&emsp;
-                    </li>
-                    <li>
-                        <a class="btn btn-sm btn-outline-warning" href="/cart">Giỏ Hàng</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- Page Content -->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/product">Sản phẩm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/product/nam">Thời trang nam</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/product/nu">Thời trang nữ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Liên hệ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blogs">Blogs</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mx-auto">
+          <li>
+            <a class="btn btn-sm btn-outline-info active" href="/signup">Sign up</a>&emsp;
+          </li>
+          <li>
+            <a class="btn btn-sm btn-outline-info  " href="/auth/signIn">Sign in</a>&emsp;
+          </li>
+          <li>
+            <a class="btn btn-sm btn-outline-warning" href="/cart">Giỏ Hàng</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Content -->
   <div class="container">
 
     <div class="row">
@@ -83,37 +83,87 @@
       </div>
       <!-- /.col-lg-3 -->
 
+
       <div class="col-lg-9">
 
-
         <div class="row">
-            <% for (var i = 0; i < clo.length; i++) {%>
+          <% for (var i = 0; i < clo.length; i++) {%>
 
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card h-100">
-                  <a href="/product/<%= clo[i].gioitinh %>/<%= clo[i]._id %>">
-                    <img class="card-img-top" src="/<%= clo[i].hinh %>"  alt="">
-                  </a>
-                  <div class="card-body">
-                    <h4 class="card-title">
-                      <a href="/product/<%= clo[i].gioitinh %>/<%= clo[i]._id %>"><%= clo[i].tensanpham %></a>
-                    </h4>
-                    <h5><%= clo[i].dongia %></h5>
-                    <p class="card-text"><%= clo[i].mota %></p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small><br>
-                    <a href="/cart/add/<%= clo[i]._id %>" class="btn btn-primary pull-right">Thêm vào giỏ hàng</a>
-                    
-                  </div>
-                </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="/product/<%= clo[i].gioitinh %>/<%= clo[i]._id %>">
+                <img class="card-img-top" src="/<%= clo[i].hinh %>" alt="">
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="/product/<%= clo[i].gioitinh %>/<%= clo[i]._id %>"><%= clo[i].tensanpham %></a>
+                </h4>
+                <h5><%= clo[i].dongia %></h5>
+                <p class="card-text"><%= clo[i].mota %></p>
               </div>
-    
-              <% } %>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small><br>
+                <a href="/cart/add/<%= clo[i]._id %>" class="btn btn-primary pull-right">Thêm vào giỏ hàng</a>
+
+              </div>
+            </div>
+          </div>
+
+          <% } %>
 
 
         </div>
         <!-- /.row -->
+
+        <!-- Pagination -->
+
+        <nav aria-label="...">
+          <ul class="pagination">
+            <% if (pageCurrent == 1) { %>
+            <li class="page-item disabled">
+              <a class="page-link" href="?pagenumber=<%= parseInt(pageCurrent) - 1  %>" tabindex="-1">Previous</a>
+            </li>
+            <% } else {%>
+
+            <li class="page-item">
+              <a class="page-link" href="?pagenumber=<%= parseInt(pageCurrent) - 1  %>" tabindex="-1">Previous</a>
+            </li>
+
+            <% } %>
+
+            <% for ( var i = 1; i <= totalPage; i++ ) { %>
+
+            <% if (pageCurrent != i) { %>
+
+            <li class="page-item">
+              <a class="page-link" href="?pagenumber=<%= i  %>"><%= i %></a>
+            </li>
+            <% } else {%>
+            <li class="page-item active">
+              <a class="page-link" href="?pagenumber=<%= i  %>"><%= i %> <span class="sr-only">(current)</span></a>
+            </li>
+
+            <% } %>
+
+            <% } %>
+
+            <% if (pageCurrent == totalPage) { %>
+
+
+            <li class="page-item disabled">
+              <a class="page-link" href="?pagenumber=<%= parseInt(pageCurrent) + 1  %>">Next</a>
+            </li>
+
+            <% } else {%>
+
+            <li class="page-item ">
+              <a class="page-link" href="?pagenumber=<%= parseInt(pageCurrent) + 1  %>">Next</a>
+            </li>
+            <% } %>
+          </ul>
+        </nav>
+
+        <!-- /.Pagination -->
 
       </div>
       <!-- /.col-lg-9 -->

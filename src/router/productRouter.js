@@ -55,6 +55,7 @@ const router = (uri) => {
       const { sex } = req.params;
       const dbname = 'shop';
       const pageCurrent = (req.query.pagenumber || 1);
+      console.log(pageCurrent);
       (async function mongo() {
         let client;
         try {
@@ -66,6 +67,7 @@ const router = (uri) => {
 
           const numberCol = await col.find({ gioitinh: sex }).count();
           const totalPage = Math.ceil(numberCol / 15);
+          console.log(totalPage);
           const products = await col.find({ gioitinh: sex })
             .skip(pageCurrent * 15 - 15)
             .limit(15)

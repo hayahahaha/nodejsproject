@@ -9,12 +9,12 @@ module.exports = function localStrategy() {
       usernameField: 'username',
       passwordField: 'password',
     }, (username, password, done) => {
-      const url = 'mongodb://localhost:27017/';
+      const uri = 'mongodb+srv://sa:sa@cluster0-bg155.mongodb.net/test?retryWrites=true&w=majority';
       const dbname = 'shop';
       (async function addUser() {
         let client;
         try {
-          client = await MongoClient.connect(url);
+          client = await MongoClient.connect(uri);
           const db = client.db(dbname);
 
           const col = db.collection('user');

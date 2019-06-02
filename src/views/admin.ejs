@@ -1,21 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="er">
 
 <head>
-
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title><%= Title %></title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/small-business.css" rel="stylesheet">
-
+    <title>thông tin thanh toán</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            padding-top: 70px;
+        }
+    </style>
 </head>
 
 <body>
@@ -68,36 +63,71 @@
     </nav>
     <!-- Page Content -->
     <div class="container">
-        <header class="jumbotron my-4">
-            <h1 class="display-3">Thập tam shop</h1>
-            <p class="lead">Chào các bạn đến với shop thập tam, nơi các bạn sẽ tìm được những bộ quần áo ứng ý nhất</p>
-            <a href="#" class="btn btn-primary btn-lg">Xem các sản phẩm!</a>
-        </header>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-7">
+                <h1>Nhập thông tin địa chỉ</h1><br><br>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
 
-        <!-- Heading Row -->
 
-        <!-- Call to Action Well -->
+        <form method="POST">
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationServer013">Mã sản phẩm</label>
+                    <input type="text" class="form-control" id="name" placeholder="99" value="" required
+                        name="masanpham">
+                    <label for="validationServer023"> Mã loại </label>
+                    <input type="text" class="form-control" id="validationServer023" placeholder="1" value="" required
+                        name="maloai">
+                    <label for="validationServer023">Tên sản phẩm</label>
+                    <input type="text" class="form-control" id="validationServer023" placeholder="Áo kaki Việt Nam"
+                        value="" required name="tensanpham">
+                    <label for="gioitinh">Giới tính</label>
+                    <input type="text" class="form-control" id="gioitinh" placeholder="Nam" value="" required
+                        name="gioitinh">
+                </div>
+                <div class="col-md-4 text-center align-items-center">
+                    <button class="btn btn-primary" type="submit">Đưa sản phẩm lên database</button>
+                    <br>
+                    <br>
+                    <button id="singlebutton" name="singlebutton" class="btn btn-primary">
+                        <a href="/admin/product/" class="btn btn-primary pull-right">Đưa tất cả sản phẩm lên
+                            database</a>
+                    </button>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationServer013">Đơn giá </label>
+                    <input type="text" class="form-control" id="validationServer013" placeholder="100000 đ" value=""
+                        required name="dongia">
+                    <label for="validationServer023"> hình ảnh </label>
+                    <input type="text" class="form-control" id="validationServer023"
+                        placeholder="images/ao-nam/ao-so-mi-nam-do-nau-lua-cao-cap.jpg" value="" required name="hinh">
+                    <label for="validationServer023">mô tả</label>
+                    <input type="text" class="form-control" id="validationServer023"
+                        placeholder="Áo kaki hàng Việt Nam chất lượng cao" value="" required name="mota">
+                </div>
+                <div class="col-md-6 mb-3">
 
-        <!-- Content Row -->
+                </div>
 
+            </div>
+
+        </form>
     </div>
-    <!-- /.row -->
 
-    </div>
-    <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
+    <!-- Bootstrap core JavaScript -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <footer class="py-5 bg-dark" style="position: relative;width: 100%;bottom: 0px;">
         <div class="container">
             <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
         </div>
         <!-- /.container -->
     </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>
