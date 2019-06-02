@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="er">
+<head>
+  <meta charset="utf-8">
+  <title>thông tin thanh toán</title>
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{
+      padding-top: 70px;
+    }
+
+  </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="/">Shop Thập Tam</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+              aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav mx-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="/">Home
+                          <span class="sr-only">(current)</span>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/product">Sản phẩm</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/product/nam">Thời trang nam</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/product/nu">Thời trang nữ</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/contact">Liên hệ</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/blogs">Blogs</a>
+                  </li>
+              </ul>
+              <ul class="navbar-nav mx-auto">
+                  <li>
+                      <a class="btn btn-sm btn-outline-info active" href="/signup">Sign up</a>&emsp;
+                  </li>
+                  <li>
+                      <a class="btn btn-sm btn-outline-info  " href="/auth/signIn">Sign in</a>&emsp;
+                  </li>
+                  <li>
+                      <a class="btn btn-sm btn-outline-warning" href="/cart">Giỏ Hàng</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-7"> <h1>Nhập thông tin địa chỉ</h1><br><br></div>
+      <div class="col-md-2"></div>
+    </div>
+   
+
+   <form method="POST">
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer013">Họ tên </label>
+      <input type="text" class="form-control" id="name" placeholder="Nguyễn văn A"
+        value="" required name="name">
+      <label for="validationServer023">Số điện thoại </label>
+      <input type="text" class="form-control" id="validationServer023" placeholder="0123456789"
+        value="" required name="telephoneNumber">
+      <label for="validationServer023">Địa chỉ nhận hàng</label>
+      <input type="text" class="form-control" id="validationServer023" placeholder="Số nhà"
+        value="" required name="address">
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-4 mb-3">
+        <h4>Phương thức thanh toán</h4>
+        <input type="radio" name="pay"> Thanh toán bằng tiền mặt khi nhận hàng<br><br>
+        <input type="radio" name="pay"> Thanh toán bằng thẻ quốc tế(Visa,Master,JCB)<br><br>
+        <input type="radio" name="pay"> Thẻ ATM nội địa<br><br>
+        <input type="radio" name="pay"> Thanh toán bằng Momo<br><br>
+
+        <button class="btn btn-primary" type="submit" >Xác nhận đặt hàng</button>
+
+
+    </div>  
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer013">Tỉnh/Thành phố </label>
+      <input type="text" class="form-control" id="validationServer013" placeholder="TP hồ chí minh"
+        value="" required name="province">
+      <label for="validationServer023">Quận/Huyện </label>
+      <input type="text" class="form-control" id="validationServer023" placeholder="Quận 1"
+        value="" required name="district">
+      <label for="validationServer023">Phường/Xã</label>
+      <input type="text" class="form-control" id="validationServer023" placeholder="phường 1"
+        value="" required name="conmmune">
+    </div>
+    <div class="col-md-6 mb-3">
+      
+    </div>
+     
+  </div>
+  
+</form>
+</div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <footer class="py-5 bg-dark" style="position: relative;width: 100%;bottom: 0px;">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+</footer>
+</body>
+
+</html>

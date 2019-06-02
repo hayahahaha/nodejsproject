@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Giỏ hàng</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      padding-top: 70px;
+    }
+  </style>
+</head>
+
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Shop Thập Tam</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/product">Sản phẩm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/product/nam">Thời trang nam</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/product/nu">Thời trang nữ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Liên hệ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blogs">Blogs</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mx-auto">
+          <li>
+            <a class="btn btn-sm btn-outline-info active" href="/signup">Sign up</a>&emsp;
+          </li>
+          <li>
+            <a class="btn btn-sm btn-outline-info  " href="/auth/signIn">Sign in</a>&emsp;
+          </li>
+          <li>
+            <a class="btn btn-sm btn-outline-warning" href="/cart">Giỏ Hàng</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Content -->
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>
+                <h4>Product</h4>
+              </th>
+              <th>
+                <h4>Quantity</h4>
+              </th>
+              <th class="text-center">
+                <h4>Price</h4>
+              </th>
+              <th class="text-center">
+                <h4>Total</h4>
+              </th>
+              <th> </th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- product Content -->
+            <% for (var i = 0; i < products.length; i++) {%>
+            <tr>
+              <td class="col-sm-8 col-md-6">
+                <div class="media">
+                  <a class="thumbnail pull-left" href="#"> <img class="media-object"
+                      src="<%= products[i].item.hinh  %>"
+                      style="width: 180px; height: 80px;"> </a> &emsp;
+                  <div class="media-body">
+                    <h4 class="media-heading"><a href="/product/<%= products[i].item.gioitinh%>/<%= products[i].item._id  %>"><%= products[i].item.tensanpham  %></a></h4>
+                    <h5 class="media-heading"><a href="#">Mã sản phẩm - <%= products[i].item.masanpham  %></a></h5>
+                    <span>Status: </span><span class="text-success"><strong>In Stock</strong></span>
+                  </div>
+                </div>
+              </td>
+              <td class="col-sm-1 col-md-1" style="text-align: center">
+                <input type="number" class="form-control" id="Quantity" value="<%= products[i].quantity  %>" readonly>
+              </td>
+              <td class="col-sm-1 col-md-1 text-center"><strong><%= products[i].item.dongia  %>₫</strong></td>
+              <td class="col-sm-1 col-md-1 text-center"><strong><%= products[i].price  %>₫</strong></td>
+              <td class="col-sm-1 col-md-1">
+                  <a href="/cart/remove/<%= products[i].item._id  %>">
+                <button type="button" class="btn btn-danger">
+                  <span class="glyphicon glyphicon-remove">Remove</span> 
+                </button></a>
+              </td>
+                
+            </tr>
+
+            <% } %>
+
+            <!-- /product Content -->
+
+
+            <tr>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td>
+                <h5>Subtotal</h5>
+              </td>
+              <td class="text-right">
+                <h5><strong><%= totalPrice %>₫</strong></h5>
+              </td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td>
+                <h5>Estimated shipping</h5>
+              </td>
+              <td class="text-right">
+                  <% if (totalPrice !==0) { %>
+                <h5><strong>12000₫</strong></h5>
+                <%} else {%>
+                  <h5><strong>0₫</strong></h5>
+                  <%}%>
+              </td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td>
+                <h3>Total</h3>
+              </td>
+              <td class="text-right">
+                  <% if (totalPrice !==0) { %>
+                <h3><strong><%= totalPrice + 12000 %>₫</strong></h3>
+                <%} else {%>
+                  <h3><strong>0₫</strong></h3>
+                  <%}%>
+              </td>
+            </tr>
+            <tr>
+              <td> 
+                <a href="/product">
+                <button type="button" class="btn btn-success">
+                  <span class="glyphicon glyphicon-shopping-cart"></span> Continue Shopping
+                </button>
+                </a>
+              </td>
+              <td> </td>
+              <td> </td>
+              <td>
+              </td>
+              <td>
+                <% if (totalPrice !==0) { %>
+                <a href="/cart/checkout">
+                <button type="button" class="btn btn-success">
+                  Checkout <span class="glyphicon glyphicon-play"></span>
+                </button>
+                  <%}%>
+               </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+</body>
+
+</html>

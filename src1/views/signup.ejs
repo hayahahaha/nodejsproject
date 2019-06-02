@@ -1,0 +1,108 @@
+rs<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>templet</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            padding: 70px 0px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+  <a class="navbar-brand" href="#">Start Bootstrap</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <a class="btn btn-sm btn-outline-info" href="#" >Sign up</a>&emsp;
+    <a class="btn btn-sm btn-outline-info" href="#">Sign in</a>&emsp;
+    <a class="btn btn-sm btn-outline-warning" href="#">Giỏ Hàng</a>
+
+  </div>
+  </div>
+</nav>
+
+  
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
+            <legend><a href="http://www.jquery2dotnet.com"><i class="glyphicon glyphicon-globe"></i></a> Sign up!</legend>
+            <form action="#" method="post" class="form" role="form">
+            <div class="row">
+                <div class="col-xs-6 col-md-6">
+                    <input class="form-control" name="firstname" placeholder="First Name" type="text"
+                        required autofocus />
+                </div>
+                <div class="col-xs-6 col-md-6">
+                    <input class="form-control" name="lastname" placeholder="Last Name" type="text" required />
+                </div>
+            </div>
+            <input class="form-control" name="youremail" placeholder="Your Email" type="email" />
+            <input class="form-control" name="reenteremail" placeholder="Re-enter Email" type="email" />
+            <input class="form-control" name="password" placeholder="New Password" type="password" />
+            <label for="">
+                Birth Date</label>
+            <div class="row">
+                <div class="col-xs-4 col-md-4">
+                    <select class="form-control">
+                        <option value="Month">Month</option>
+                    </select>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <select class="form-control">
+                        <option value="Day">Day</option>
+                    </select>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <select class="form-control">
+                        <option value="Year">Year</option>
+                    </select>
+                </div>
+            </div>
+            <label class="radio-inline">
+                <input type="radio" name="sex" id="inlineCheckbox1" value="male" />
+                Male
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="sex" id="inlineCheckbox2" value="female" />
+                Female
+            </label>
+            <br />
+            <br />
+            <button class="btn btn-lg btn-primary btn-block" type="submit">
+                Sign up</button>
+               <p> If you have an account, Click here to<a href="#"> Sign in</a>!</p>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,820 @@
+[
+    {
+      "masanpham": 1,
+      "maloai": 1,
+      "tensanpham": "Áo Gile",
+      "gioitinh": "nam",
+      "dongia": 270000,
+      "hinh": "images/ao-nam/ao-gile.jpg",
+      "mota": "Áo Gile nam đẹp, phong cách"
+    },
+    {
+        "masanpham": 2,
+        "maloai": 1,
+        "tensanpham": "Áo khoác dù",
+        "gioitinh": "nam",
+        "dongia": 190000,
+        "hinh": "images/ao-nam/ao-khoac-nam-du.jpg",
+        "mota": "Áo khoác dù, áo khoác cặp"
+      },
+      {
+        "masanpham": 3,
+        "maloai": 1,
+        "tensanpham": "Áo khoác hoodie",
+        "gioitinh": "nam",
+        "dongia": 390000,
+        "hinh": "images/ao-nam/ao-khoac-nam-hoddie-tam-giac.jpg",
+        "mota": "Áo khoác nam hoodie có hình tam giác sau lưng"
+      },
+      {
+        "masanpham": 4,
+        "maloai": 1,
+        "tensanpham": "Áo khoác nỉ",
+        "gioitinh": "nam",
+        "dongia": 290000,
+        "hinh": "images/ao-nam/ao-khoac-nam-thun-ni.jpg",
+        "mota": "Áo khoác nam chất liệu thun nỉ"
+      },
+      {
+        "masanpham": 5,
+        "maloai": 1,
+        "tensanpham": "Áo khoác Cardigant",
+        "gioitinh": "nam",
+        "dongia": 125000,
+        "hinh": "images/ao-nam/ao-khoac-nam.jpg",
+        "mota": "Áo khoác nam Hàn Quốc Cardigant"
+      },
+      {
+        "masanpham": 6,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi nam đỏ",
+        "gioitinh": "nam",
+        "dongia": 389000,
+        "hinh": "images/ao-nam/ao-so-mi-nam-do-nau-lua-cao-cap.jpg",
+        "mota": "Áo sơ mi nam màu đỏ nâu chất liệu lụa cao cấp"
+      },
+      {
+        "masanpham": 7,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi",
+        "gioitinh": "nam",
+        "dongia": 210000,
+        "hinh": "images/ao-nam/ao-so-mi-nam-in-hoa-tiet.jpg",
+        "mota": "Áo sơ mi nam in họa tiết"
+      },
+      {
+        "masanpham": 8,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi đen tay dài",
+        "gioitinh": "nam",
+        "dongia": 190000,
+        "hinh": "images/ao-nam/ao-so-mi-nam-mau-den-tay-dai.jpg",
+        "mota": "Áo sơ mi nam màu đen tay dài"
+      },
+      {
+        "masanpham": 9,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi trắng có logo",
+        "gioitinh": "nam",
+        "dongia": 190000,
+        "hinh": "images/ao-nam/ao-so-mi-trang-co-logo.jpg",
+        "mota": "Áo sơ mi nam màu trắng có logo trước ngực"
+      },
+      {
+        "masanpham": 10,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi trắng",
+        "gioitinh": "nam",
+        "dongia": 170000,
+        "hinh": "images/ao-nam/ao-so-mi-trang-nam.jpg",
+        "mota": "Áo sơ mi nam màu trắng thanh lịch"
+      },
+      {
+        "masanpham": 11,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi cúc bấm",
+        "gioitinh": "nam",
+        "dongia": 215000,
+        "hinh": "images/ao-nam/ao-so-mi-xam-cuc-bam.jpg",
+        "mota": "Áo sơ mi trắng có cúc bấm"
+      },
+      {
+        "masanpham": 12,
+        "maloai": 1,
+        "tensanpham": "Áo thun thể thao",
+        "gioitinh": "nam",
+        "dongia": 250000,
+        "hinh": "images/ao-nam/ao-thun-nam-chay-bo.jpg",
+        "mota": "Áo thun nam chất liệu cao cấp thích hợp cho tập thể thao"
+      },
+      {
+        "masanpham": 13,
+        "maloai": 1,
+        "tensanpham": "Áo thun kẻ sọc",
+        "gioitinh": "nam",
+        "dongia": 125000,
+        "hinh": "images/ao-nam/ao-thun-nam-co-be-soc-ngang-1.jpg",
+        "mota": "Áo thun nam cổ bẻ sọc ngang đều"
+      },
+      {
+        "masanpham": 14,
+        "maloai": 1,
+        "tensanpham": "Áo thun sọc ngang",
+        "gioitinh": "nam",
+        "dongia": 125000,
+        "hinh": "images/ao-nam/ao-thun-nam-co-be-soc-ngang-2.jpg",
+        "mota": "Áo thun nam cổ bẻ sọc ngang kích cỡ khác nhau"
+      },
+      {
+        "masanpham": 15,
+        "maloai": 1,
+        "tensanpham": "Áo thun in họa tiết",
+        "gioitinh": "nam",
+        "dongia": 135000,
+        "hinh": "images/ao-nam/ao-thun-nam-in-hoa-tiet.jpg",
+        "mota": "Áo thun nam có họa tiết đầu hươu in trước ngực"
+      },
+      {
+        "masanpham": 16,
+        "maloai": 1,
+        "tensanpham": "Áo thun nam",
+        "gioitinh": "nam",
+        "dongia": 110000,
+        "hinh": "images/ao-nam/ao-thun-nam.jpg",
+        "mota": "Áo thun nam in họa tiết trước ngực"
+      },
+      {
+        "masanpham": 17,
+        "maloai": 2,
+        "tensanpham": "Quần Âu kaki",
+        "gioitinh": "nam",
+        "dongia": 390000,
+        "hinh": "images/quannam/quan-au-nam-kaki.jpg",
+        "mota": "Quần Âu nam vải kaki"
+      },
+      {
+        "masanpham": 18,
+        "maloai": 2,
+        "tensanpham": "Quần nam bigsize",
+        "gioitinh": "nam",
+        "dongia": 190000,
+        "hinh": "images/quannam/quan-bigsize.png",
+        "mota": "Quần nam bigsize phong cách"
+      },
+      {
+        "masanpham": 19,
+        "maloai": 2,
+        "tensanpham": "Quần chinos",
+        "gioitinh": "nam",
+        "dongia": 230000,
+        "hinh": "images/quannam/quan-chinos-xanh.jpg",
+        "mota": "Quần chinos nam màu xanh phong cách"
+      },
+      {
+        "masanpham": 20,
+        "maloai": 2,
+        "tensanpham": "Quần dài thể thao",
+        "gioitinh": "nam",
+        "dongia": 165000,
+        "hinh": "images/quannam/quan-dai-the-thao-nam-2-tui-gia.jpg",
+        "mota": "Quần dài thể thao nam với 2 túi giả cùng với 3 sọc nganng"
+      },
+      {
+        "masanpham": 21,
+        "maloai": 2,
+        "tensanpham": "Quần đùi",
+        "gioitinh": "nam",
+        "dongia": 80000,
+        "hinh": "images/quannam/quan-dui-nam.jpg",
+        "mota": "Quần đùi nam mặc thoáng mát, dễ chịu"
+      },{
+        "masanpham": 22,
+        "maloai": 2,
+        "tensanpham": "Quần đùi thể thao",
+        "gioitinh": "nam",
+        "dongia": 75000,
+        "hinh": "images/quannam/quan-dui-the-thao.jpg",
+        "mota": "Quần đùi thể thao nam co dãn, vận động dễ dàng"
+      },
+      {
+        "masanpham": 23,
+        "maloai": 2,
+        "tensanpham": "Quần jean đen",
+        "gioitinh": "nam",
+        "dongia": 290000,
+        "hinh": "images/quannam/quan-jean-den-nam.jpg",
+        "mota": "Quần jean đen nam đẹp, phong cách"
+      },
+      {
+        "masanpham": 24,
+        "maloai": 2,
+        "tensanpham": "Quần jean xanh",
+        "gioitinh": "nam",
+        "dongia": 250000,
+        "hinh": "images/quannam/quan-jean-nam-1.jpg",
+        "mota": "Quần jean nam màu xanh lịch lãm"
+      },
+      {
+        "masanpham": 25,
+        "maloai": 2,
+        "tensanpham": "Quần jean rách",
+        "gioitinh": "nam",
+        "dongia": 255000,
+        "hinh": "images/quannam/quan-jean-nam-rach-goi.jpg",
+        "mota": "Quần jean nam rách gối phong cách"
+      },
+      {
+        "masanpham": 26,
+        "maloai": 2,
+        "tensanpham": "Quần jogger kẻ sọc",
+        "gioitinh": "nam",
+        "dongia": 99000,
+        "hinh": "images/quannam/quan-jogger-1.jpg",
+        "mota": "Quần jogger nam có 1 đường kẻ sọc lớn"
+      },
+      {
+        "masanpham": 27,
+        "maloai": 2,
+        "tensanpham": "Quần jogger lính",
+        "gioitinh": "nam",
+        "dongia": 105000,
+        "hinh": "images/quannam/quan-jogger-nam.jpg",
+        "mota": "Quần jogger nam phong cách những anh lính bộ đội"
+      },
+      {
+        "masanpham": 28,
+        "maloai": 2,
+        "tensanpham": "Quần jogger 2 sọc",
+        "gioitinh": "nam",
+        "dongia": 89000,
+        "hinh": "images/quannam/quan-jogger-nam-2-soc-trang.jpg",
+        "mota": "Quần jogger nam có 2 đường kẻ sọc trắng"
+      },
+      {
+        "masanpham": 29,
+        "maloai": 2,
+        "tensanpham": "Quần jogger đẹp",
+        "gioitinh": "nam",
+        "dongia": 100000,
+        "hinh": "images/quannam/quan-jogger-nam-dep.jpg",
+        "mota": "Quần jogger nam đẹp, lịch lãm"
+      },
+      {
+        "masanpham": 30,
+        "maloai": 2,
+        "tensanpham": "Quần jogger túi hợp",
+        "gioitinh": "nam",
+        "dongia": 95000,
+        "hinh": "images/quannam/quan-jogger-nam-tui-hop1.jpg",
+        "mota": "Quần jogger nam túi hợp"
+      },
+      {
+        "masanpham": 31,
+        "maloai": 2,
+        "tensanpham": "Quần kaki cam nhạt",
+        "gioitinh": "nam",
+        "dongia": 249000,
+        "hinh": "images/quannam/quan-kaki.jpg",
+        "mota": "Quần kaki nam màu cam nhạt có thể phối với sơ mi trắng lịch lãm"
+      },
+      {
+        "masanpham": 32,
+        "maloai": 2,
+        "tensanpham": "Quần kaki xanh",
+        "gioitinh": "nam",
+        "dongia": 250000,
+        "hinh": "images/quannam/quan-kaki-han-quoc-xanh.jpg",
+        "mota": "Quần kaki nam màu xanh phong cách Hàn Quốc"
+      },
+      {
+        "masanpham": 33,
+        "maloai": 2,
+        "tensanpham": "Quần kaki trung niên",
+        "gioitinh": "nam",
+        "dongia": 200000,
+        "hinh": "images/quannam/quan-kaki-nam-trung-nien.jpg",
+        "mota": "Quần kaki nam phù hợp với độ tuổi trung niên"
+      },
+      {
+        "masanpham": 34,
+        "maloai": 2,
+        "tensanpham": "Quần kaki uniqlo",
+        "gioitinh": "nam",
+        "dongia": 210000,
+        "hinh": "images/quannam/quan-kaki-nam-uniqlo-hang-viet-nam-xuat-khau-chat-luong-cao.jpg",
+        "mota": "Quần kaki nam Uniqlo hàng Việt Nam xuất khẩu chất lượng cao"
+      },
+      {
+        "masanpham": 35,
+        "maloai": 2,
+        "tensanpham": "Quần kaki vàng nâu",
+        "gioitinh": "nam",
+        "dongia": 230000,
+        "hinh": "images/quannam/quan-kaki-vang-nau-1.jpg",
+        "mota": "Quần kaki nam màu vàng nâu chất lượng cao"
+      },
+      {
+        "masanpham": 36,
+        "maloai": 2,
+        "tensanpham": "Quần short jean rách",
+        "gioitinh": "nam",
+        "dongia": 150000,
+        "hinh": "images/quannam/quan-short-jean-nam-1.jpg",
+        "mota": "Quần short jean nam rách phong cách"
+      },
+      {
+        "masanpham": 37,
+        "maloai": 2,
+        "tensanpham": "Quần short jean sẫm",
+        "gioitinh": "nam",
+        "dongia": 140000,
+        "hinh": "images/quannam/quan-short-jean-nam-2.jpg",
+        "mota": "Quần short jean sẫm màu đẹp"
+      },
+      {
+        "masanpham": 38,
+        "maloai": 2,
+        "tensanpham": "Quần short jean",
+        "gioitinh": "nam",
+        "dongia": 135000,
+        "hinh": "images/quannam/quan-short-jean-nam-3.jpg",
+        "mota": "Quần short jean đơn giản"
+      },
+      {
+        "masanpham": 39,
+        "maloai": 2,
+        "tensanpham": "Quần short kaki cam",
+        "gioitinh": "nam",
+        "dongia": 130000,
+        "hinh": "images/quannam/quan-short-kaki-1.jpg",
+        "mota": "Quần short kaki nam màu cam nhạt"
+      },
+      {
+        "masanpham": 40,
+        "maloai": 2,
+        "tensanpham": "Quần short kaki đen",
+        "gioitinh": "nam",
+        "dongia": 135000,
+        "hinh": "images/quannam/quan-short-kaki-nam.jpg",
+        "mota": "Quần short kaki nam màu đen"
+      },
+      {
+        "masanpham": 41,
+        "maloai": 2,
+        "tensanpham": "Quần tây trắng",
+        "gioitinh": "nam",
+        "dongia": 270000,
+        "hinh": "images/quannam/quan-tay-trang.jpg",
+        "mota": "Quần tây nam màu trắng"
+      },
+      {
+        "masanpham": 43,
+        "maloai": 2,
+        "tensanpham": "Quần thể thao",
+        "gioitinh": "nam",
+        "dongia": 140000,
+        "hinh": "images/quannam/quan-the-thao-3-soc.jpg",
+        "mota": "Quần thể thao nam có 3 đường kẻ sọc"
+      },
+      {
+        "masanpham": 44,
+        "maloai": 2,
+        "tensanpham": "Quần hiệu dunlop",
+        "gioitinh": "nam",
+        "dongia": 150000,
+        "hinh": "images/quannam/quan-the-thao-nam-dunlop.jpg",
+        "mota": "Quần đùi thể thao nam hiệu Dunlop"
+      },
+      {
+        "masanpham": 45,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi nữ Zavans",
+        "gioitinh": "nu",
+        "dongia": 190000,
+        "hinh": "images/ao-nu/ao-nu1.jpg",
+        "mota": "Áo sơ mi nữ công sở hiệu Zavans màu cam"
+      },
+      {
+        "masanpham": 46,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi nữ caro",
+        "gioitinh": "nu",
+        "dongia": 210000,
+        "hinh": "images/ao-nu/ao-nu2.jpg",
+        "mota": "Áo sơ mi nữ caro form dài phối nón"
+      },
+      {
+        "masanpham": 47,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi form rộng",
+        "gioitinh": "nu",
+        "dongia": 180000,
+        "hinh": "images/ao-nu/ao-nu3.jpg",
+        "mota": "Áo Sơ Mi Nữ Form Rộng Dáng Dài Phối Kẻ Sọc Zavans"
+      },
+      {
+        "masanpham": 48,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi kèm nơ",
+        "gioitinh": "nu",
+        "dongia": 150000,
+        "hinh": "images/ao-nu/ao-nu4.jpg",
+        "mota": "Sơ mi nữ kèm dây nơ dễ thương"
+      },
+      {
+        "masanpham": 49,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi gấu Lamer",
+        "gioitinh": "nu",
+        "dongia": 110000,
+        "hinh": "images/ao-nu/ao-nu5.jpg",
+        "mota": "Áo sơ mi gấu mullet LAMER màu trắng"
+      },
+      {
+        "masanpham": 50,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi nhung",
+        "gioitinh": "nu",
+        "dongia": 120000,
+        "hinh": "images/ao-nu/ao-nu6.jpg",
+        "mota": "Áo sơ mi nữ nhung LAMER màu nâu"
+      },
+      {
+        "masanpham": 51,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi cổ vic",
+        "gioitinh": "nu",
+        "dongia": 110000,
+        "hinh": "images/ao-nu/ao-nu7.jpg",
+        "mota": "Áo nữ sơ mi cổ víc LAMER màu ghi"
+      },
+      {
+        "masanpham": 52,
+        "maloai": 1,
+        "tensanpham": "Áo sơ mi thắt nơ",
+        "gioitinh": "nu",
+        "dongia": 125000,
+        "hinh": "images/ao-nu/ao-nu8.jpg",
+        "mota": "Áo Sơ Mi Nữ thắt nơ caro cục bông trắng"
+      },
+      {
+        "masanpham": 53,
+        "maloai": 1,
+        "tensanpham": "Áo khoác bigsize",
+        "gioitinh": "nu",
+        "dongia": 190000,
+        "hinh": "images/ao-nu/ao-nu9.jpg",
+        "mota": "Áo Khoác Nữ BIG SIZE Áo Khoác Nữ Đẹp"
+      },
+      {
+        "masanpham": 54,
+        "maloai": 1,
+        "tensanpham": "Áo khoác phao túi hộp",
+        "gioitinh": "nu",
+        "dongia": 220000,
+        "hinh": "images/ao-nu/ao-nu10.jpg",
+        "mota": "Áo khoác phao dáng dài phối nón lông và túi hộp"
+      },
+      {
+        "masanpham": 55,
+        "maloai": 1,
+        "tensanpham": "Áo khoác thoát nhiệt",
+        "gioitinh": "nu",
+        "dongia": 150000,
+        "hinh": "images/ao-nu/ao-nu11.jpg",
+        "mota": "Áo khoác thoát nhiệt Nhật Bản , áo chống nắng 100% cotton thoáng mát, thấm hút mồ hôi"
+      },
+      {
+        "masanpham": 56,
+        "maloai": 1,
+        "tensanpham": "Áo khoác gió",
+        "gioitinh": "nu",
+        "dongia": 170000,
+        "hinh": "images/ao-nu/ao-nu12.jpg",
+        "mota": "Áo khoác gió nữ phối 3 màu thời trang, vải dù nhẹ, chống nắng, đi mưa, cản gió tốt"
+      },
+      {
+        "masanpham": 57,
+        "maloai": 1,
+        "tensanpham": "Áo khoác nữ LO",
+        "gioitinh": "nu",
+        "dongia": 210000,
+        "hinh": "images/ao-nu/ao-nu13.jpg",
+        "mota": "Áo Khoác Nữ Lime Orange LO màu đỏ"
+      },
+      {
+        "masanpham": 58,
+        "maloai": 1,
+        "tensanpham": "Áo khoác Jacket",
+        "gioitinh": "nu",
+        "dongia": 190000,
+        "hinh": "images/ao-nu/ao-nu14.jpg",
+        "mota": "Áo Khoác Jacket Hai Túi Khóa Kéo Vanass màu hồng"
+      },
+      {
+        "masanpham": 59,
+        "maloai": 1,
+        "tensanpham": "Áo khoác jean",
+        "gioitinh": "nu",
+        "dongia": 250000,
+        "hinh": "images/ao-nu/ao-nu15.jpg",
+        "mota": "Áo Khoác Jean Nữ Năng Động Cổ Bẻ Hưng Phát màu xanh"
+      },
+      {
+        "masanpham": 60,
+        "maloai": 1,
+        "tensanpham": "Áo khoác phao dáng dài",
+        "gioitinh": "nu",
+        "dongia": 390000,
+        "hinh": "images/ao-nu/ao-nu16.jpg",
+        "mota": "Áo Khoác Phao Nữ Dáng Dài màu đen"
+      },
+      {
+        "masanpham": 61,
+        "maloai": 1,
+        "tensanpham": "Áo thun form rộng",
+        "gioitinh": "nu",
+        "dongia": 110000,
+        "hinh": "images/ao-nu/ao-nu17.jpg",
+        "mota": "Áo Thun Nữ Form Rộng Dáng Dài Giấu Quần In Chữ Năng Động"
+      },
+      {
+        "masanpham": 62,
+        "maloai": 1,
+        "tensanpham": "Áo Thun Nữ Họa Tiết",
+        "gioitinh": "nu",
+        "dongia": 90000,
+        "hinh": "images/ao-nu/ao-nu18.jpg",
+        "mota": "Áo Thun Nữ Họa Tiết Mèo T&D màu trắng"
+      },
+      {
+        "masanpham": 63,
+        "maloai": 1,
+        "tensanpham": "Áo Phông Nữ",
+        "gioitinh": "nu",
+        "dongia": 110000,
+        "hinh": "images/ao-nu/ao-nu19.jpg",
+        "mota": "Áo Phông Nữ Hàn Quốc Orange Factory"
+      },
+      {
+        "masanpham": 64,
+        "maloai": 1,
+        "tensanpham": "Áo cổ lọ",
+        "gioitinh": "nu",
+        "dongia": 150000,
+        "hinh": "images/ao-nu/ao-nu20.jpg",
+        "mota": "Áo cổ lọ nữ tay lửng"
+      },
+      {
+        "masanpham": 65,
+        "maloai": 2,
+        "tensanpham": "Quần baggy",
+        "gioitinh": "nu",
+        "dongia": 170000,
+        "hinh": "images/quan-nu/quan-baggy-nu-vai-hong.jpg",
+        "mota": "Quần baggy nữ màu hồng"
+      },
+      {
+        "masanpham": 66,
+        "maloai": 2,
+        "tensanpham": "Quần jean",
+        "gioitinh": "nu",
+        "dongia": 150000,
+        "hinh": "images/quan-nu/quan-jean-nu.jpg",
+        "mota": "Quần jean nữ bó"
+      },
+      {
+        "masanpham": 67,
+        "maloai": 2,
+        "tensanpham": "Quần jogger",
+        "gioitinh": "nu",
+        "dongia": 120000,
+        "hinh": "images/quan-nu/quan-jogger-nu-1-soc-trang.jpg",
+        "mota": "Quần jogger nữ có 1 đường kẻ sọc"
+      },
+      {
+        "masanpham": 68,
+        "maloai": 2,
+        "tensanpham": "Quần kaki ống chữ v",
+        "gioitinh": "nu",
+        "dongia": 190000,
+        "hinh": "images/quan-nu/quan-kaki-lung-cao-ong-chu-v.jpg",
+        "mota": "Quần kaki lửng cao ống chữ v"
+      },
+      {
+        "masanpham": 69,
+        "maloai": 2,
+        "tensanpham": "Quần kaki ống rộng",
+        "gioitinh": "nu",
+        "dongia": 170000,
+        "hinh": "images/quan-nu/quan-kaki-nu-ong-rong.jpg",
+        "mota": "Quần kaki nữ ống rộng"
+      },
+      {
+        "masanpham": 70,
+        "maloai": 2,
+        "tensanpham": "Quần legging",
+        "gioitinh": "nu",
+        "dongia": 220000,
+        "hinh": "images/quan-nu/quan-legging-det-phoi-mau-xam.jpg",
+        "mota": "Quần legging dẹt phối màu xám"
+      },
+      {
+        "masanpham": 71,
+        "maloai": 2,
+        "tensanpham": "Quần jean lửng",
+        "gioitinh": "nu",
+        "dongia": 110000,
+        "hinh": "images/quan-nu/quan-lung-jean-nu-toi-goi.jpg",
+        "mota": "Quần jean nữ lửng tới gối"
+      },
+      {
+        "masanpham": 72,
+        "maloai": 2,
+        "tensanpham": "Quần kaki lửng",
+        "gioitinh": "nu",
+        "dongia": 145000,
+        "hinh": "images/quan-nu/quan-lung-nu-kaki-thun-trang.jpg",
+        "mota": "Quần kaki nữ thun lửng màu trắng"
+      },
+      {
+        "masanpham": 73,
+        "maloai": 2,
+        "tensanpham": "Quần lửng thắt nơ",
+        "gioitinh": "nu",
+        "dongia": 135000,
+        "hinh": "images/quan-nu/quan-lung-nu-that-no.jpg",
+        "mota": "Quần lửng nữ thắt nơ"
+      },
+      {
+        "masanpham": 74,
+        "maloai": 2,
+        "tensanpham": "Quần ống rộng",
+        "gioitinh": "nu",
+        "dongia": 150000,
+        "hinh": "images/quan-nu/quan-nu-ong-rong.jpg",
+        "mota": "Quần nữ ống rộng sành điệu"
+      },
+      {
+        "masanpham": 75,
+        "maloai": 2,
+        "tensanpham": "Quần short jean",
+        "gioitinh": "nu",
+        "dongia": 115000,
+        "hinh": "images/quan-nu/quan-short-jean-lung-cao-nu.jpg",
+        "mota": "Quần short jean nữ lửng cao"
+      },
+      {
+        "masanpham": 76,
+        "maloai": 2,
+        "tensanpham": "Quần short rách",
+        "gioitinh": "nu",
+        "dongia": 115000,
+        "hinh": "images/quan-nu/quan-short-nu-rac.jpg",
+        "mota": "Quần short nữ rách phong cách"
+      },
+      {
+        "masanpham": 77,
+        "maloai": 2,
+        "tensanpham": "Quần tây nữ",
+        "gioitinh": "nu",
+        "dongia": 150000,
+        "hinh": "images/quan-nu/quan-tay-nu.jpg",
+        "mota": "Quần tấy nữ công sở đẹp sành điệu"
+      },
+      {
+        "masanpham": 78,
+        "maloai": 2,
+        "tensanpham": "Set quan ao",
+        "gioitinh": "nu",
+        "dongia": 190000,
+        "hinh": "images/quan-nu/set-quan-ao-ni-nu-tay-dai.jpg",
+        "mota": "Set quần áo nỉ nữ tay dài"
+      },
+      {
+        "masanpham": 79,
+        "maloai": 2,
+        "tensanpham": "Quần short trắng",
+        "gioitinh": "nu",
+        "dongia": 115000,
+        "hinh": "images/quan-nu/short-jean-trang.jpg",
+        "mota": "Quần short jean trắng"
+      },
+      {
+        "masanpham": 80,
+        "maloai": 3,
+        "tensanpham": "Chân váy đan",
+        "gioitinh": "nu",
+        "dongia": 135000,
+        "hinh": "images/vay-dam/chan-vay-nu.jpg",
+        "mota": "Chân váy nữ đan xen hình chữ X"
+      },
+      {
+        "masanpham": 81,
+        "maloai": 3,
+        "tensanpham": "Chân váy nút",
+        "gioitinh": "nu",
+        "dongia": 135000,
+        "hinh": "images/vay-dam/chan-vay-nu-2.jpg",
+        "mota": "Chân váy nữ có dây lưng và 8 nút"
+      },
+      {
+        "masanpham": 82,
+        "maloai": 3,
+        "tensanpham": "Chân váy chữ a",
+        "gioitinh": "nu",
+        "dongia": 135000,
+        "hinh": "images/vay-dam/chan-vay-nu-chu-a-phoi-tui.jpg",
+        "mota": "Chân váy nữ chữ a phối túi"
+      },
+      {
+        "masanpham": 83,
+        "maloai": 3,
+        "tensanpham": "Đầm lệch vai",
+        "gioitinh": "nu",
+        "dongia": 175000,
+        "hinh": "images/vay-dam/dam-lech-vai.jpg",
+        "mota": "Đầm lệch vai nữ tính màu xanh"
+      },
+      {
+        "masanpham": 84,
+        "maloai": 3,
+        "tensanpham": "Đầm đẹp",
+        "gioitinh": "nu",
+        "dongia": 180000,
+        "hinh": "images/vay-dam/dam-nu-de-thuong.jpg",
+        "mota": "Đầm nữ dễ thương màu xanh phối trắng"
+      },
+      {
+        "masanpham": 85,
+        "maloai": 3,
+        "tensanpham": "Đầm dễ thương",
+        "gioitinh": "nu",
+        "dongia": 185000,
+        "hinh": "images/vay-dam/dam-nu-de-thuong-dep.jpg",
+        "mota": "Đầm nữ dễ thương đẹp trắng phối xanh"
+      },
+      {
+        "masanpham": 86,
+        "maloai": 3,
+        "tensanpham": "Đầm hồng",
+        "gioitinh": "nu",
+        "dongia": 185000,
+        "hinh": "images/vay-dam/dam-nu-hong.jpg",
+        "mota": "Đầm nữ màu hồng dễ thướng"
+      },
+      {
+        "masanpham": 87,
+        "maloai": 3,
+        "tensanpham": "Đầm sọc",
+        "gioitinh": "nu",
+        "dongia": 150000,
+        "hinh": "images/vay-dam/dam-soc-the-thao-co-non.jpg",
+        "mota": "Đầm sọc thể thao có nón"
+      },
+      {
+        "masanpham": 88,
+        "maloai": 3,
+        "tensanpham": "Đầm in hoa",
+        "gioitinh": "nu",
+        "dongia": 145000,
+        "hinh": "images/vay-dam/dam-vay-nu-mau-hong-in-hoa.jpg",
+        "mota": "Đầm nữ màu hồng in hoa đẹp"
+      },
+      {
+        "masanpham": 89,
+        "maloai": 3,
+        "tensanpham": "Set áo váy",
+        "gioitinh": "nu",
+        "dongia": 195000,
+        "hinh": "images/vay-dam/set-ao-vay-nu-banh-beo.jpg",
+        "mota": "Sét áo váy nữ bánh bèo"
+      },
+      {
+        "masanpham": 90,
+        "maloai": 3,
+        "tensanpham": "Váy đỏ",
+        "gioitinh": "nu",
+        "dongia": 135000,
+        "hinh": "images/vay-dam/vay-nu-1.jpg",
+        "mota": "Váy nữ màu đỏ mặc thoáng"
+      },
+      {
+        "masanpham": 91,
+        "maloai": 3,
+        "tensanpham": "Váy liền",
+        "gioitinh": "nu",
+        "dongia": 165000,
+        "hinh": "images/vay-dam/vay-nu-lien-co-so-mi.jpg",
+        "mota": "Váy nữ liền cổ sơ mi đẹp"
+      },
+      {
+        "masanpham": 92,
+        "maloai": 3,
+        "tensanpham": "Váy trắng in hoa",
+        "gioitinh": "nu",
+        "dongia": 155000,
+        "hinh": "images/vay-dam/vay-nu-trang-in-hoa.jpg",
+        "mota": "Váy nữ màu trắng in hoa đẹp"
+      }
+]
